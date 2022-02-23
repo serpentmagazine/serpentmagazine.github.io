@@ -103,6 +103,11 @@ textarea {
    /* background-color: aqua; */
 }
 
+.headline {
+   max-width: 90%;
+   overflow: hidden;
+}
+
 .flex-container {
    display: flex;
    width: fit-content;
