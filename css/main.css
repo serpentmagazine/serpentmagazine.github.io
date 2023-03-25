@@ -145,8 +145,10 @@ textarea {
 }
 
 .footer {
-  text-decoration: none;
-  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
 }
 
 .liste {
@@ -185,6 +187,19 @@ textarea {
   padding: 2em;
   max-width: 40em;
   align-items: center;
+}
+
+.menu {
+  text-decoration: underline;
+  
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2em;
+  max-width: 30em;
+  /* align-items: center; */
 }
 
 a {
