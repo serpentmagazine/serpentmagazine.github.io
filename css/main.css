@@ -189,7 +189,7 @@ textarea {
   align-items: center;
 }
 
-.menu {
+.underline {
   text-decoration: underline;
   
 }
@@ -325,7 +325,7 @@ a {
 
   a,
   a:visited {
-    text-decoration: solid;
+    text-decoration: underline;
   }
 
   a[href]::after {
