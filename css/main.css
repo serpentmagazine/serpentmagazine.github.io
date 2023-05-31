@@ -187,6 +187,7 @@ textarea {
   padding: 2em;
   max-width: 40em;
   align-items: center;
+  text-align: center;
 }
 
 .underline {
