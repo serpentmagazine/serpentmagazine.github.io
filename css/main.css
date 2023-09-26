@@ -136,8 +136,14 @@ textarea {
   /* background-color: #52525227; */
 }
 
-.new {
+.new-image {
+  object-fit: scale-down;
+  height: 90%;
   border-color: gold;
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 10px;
+  width: auto;
 }
 
 .flex-card:hover {
@@ -192,7 +198,6 @@ textarea {
 
 .underline {
   text-decoration: underline;
-  
 }
 .textbox {
   display: flex;
