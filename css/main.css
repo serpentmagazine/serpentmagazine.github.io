@@ -83,6 +83,16 @@ textarea {
   resize: vertical;
 }
 
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:visited {
+  color: #844;
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -122,7 +132,7 @@ textarea {
 /* Fülle den verbleibenden Platz, um die letzte Reihe linksbündig zu halten */
 
 .flex-container::after {
-  content: "";
+  content: '';
   flex: auto;
 }
 
@@ -220,11 +230,6 @@ textarea {
   column-gap: 4em;
 }
 
-a {
-  color: black;
-  text-decoration: solid;
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -299,7 +304,7 @@ a {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -347,20 +352,20 @@ a {
   }
 
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: ' (' attr(href) ')';
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
 
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  a[href^='#']::after,
+  a[href^='javascript:']::after {
+    content: '';
   }
 
   pre {
